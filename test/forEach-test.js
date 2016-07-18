@@ -19,9 +19,9 @@ describe('index', () => {
 
       iterativeLog([1, 2, 3])
 
-      expect(log).to.have.been.called.with('0: 1')
-      expect(log).to.have.been.called.with('1: 2')
-      expect(log).to.have.been.called.with('2: 3')
+      expect(log).to.have.been.called.with('0: 1!')
+      expect(log).to.have.been.called.with('1: 2!')
+      expect(log).to.have.been.called.with('2: 3!')
 
       console.log.reset()
     })
